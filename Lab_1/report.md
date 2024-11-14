@@ -1,12 +1,20 @@
 
 University: [ITMO University](https://itmo.ru/ru/)
+
 Faculty: [FICT](https://fict.itmo.ru)
+
 Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
+
 Year: 2024/2025
+
 Group: K4111c
+
 Author: Sorokin Nikita Alekseevich
+
 Lab: Lab1
+
 Date of create: 2.11.2024
+
 Date of finished: 2.11.2024
 
 ---
@@ -141,9 +149,7 @@ minikube kubectl -- port-forward service/hashi-vault 8200:8200
 ```
 
 После чего мы сможем зайти в админ панель приложения через http://localhost:8200/
-
-![[Pasted image 20241102132636.png]]
-
+![AdminPanel](content/"Pasted image 20241102132636.png")
 Далее требуется найти ключ, первоначально он создается при создании пода, поэтому обратимся к логам:
 ```
 kubectl get pods
@@ -181,8 +187,7 @@ Development mode should NOT be used in production installations!
 По найденному токену возможно выполнить авторизацию в vault.
 
 В результате была получена следующая схема
-
-![[lab1.png]]
+![lab1](content/lab1.png)
 
 # Вывод
 
