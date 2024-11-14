@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-conf
+data:
+  REACT_APP_USERNAME: "Sorokin"
+  REACT_APP_COMPANY_NAME: "ITMO"
