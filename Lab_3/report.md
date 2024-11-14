@@ -1,11 +1,19 @@
 University: [ITMO University](https://itmo.ru/ru/)
+
 Faculty: [FICT](https://fict.itmo.ru)
+
 Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
+
 Year: 2024/2025
+
 Group: K4111c
+
 Author: Sorokin Nikita Alekseevich
+
 Lab: Lab3
+
 Date of create: 2.11.2024
+
 Date of finished: 2.11.2024
 
 ---
@@ -181,11 +189,14 @@ ingress.networking.k8s.io/frontend created
 
 7. Проверяем доступности
 Переходим по адрему http://front.local/ и видим что мы используем https с самоподписанным сертификатом
- ![[Pasted image 20241102155356.png]]
-![[Pasted image 20241102155459.png]]
+
+![test](content/20241102155356.png)
+
+![test2](content/20241102155459.png)
 
 В результате работы получилась следующая схема
- ![[lab4.png]]
+
+![lab4](content/lab4.png)
 
 # Вывод
 
