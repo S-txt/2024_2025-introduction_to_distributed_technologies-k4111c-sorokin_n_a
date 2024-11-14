@@ -149,7 +149,7 @@ minikube kubectl -- port-forward service/hashi-vault 8200:8200
 ```
 
 После чего мы сможем зайти в админ панель приложения через http://localhost:8200/
-![AdminPanel](content/"Pasted image 20241102132636.png")
+![AdminPanel](content/20241102132636.png)
 Далее требуется найти ключ, первоначально он создается при создании пода, поэтому обратимся к логам:
 ```
 kubectl get pods
