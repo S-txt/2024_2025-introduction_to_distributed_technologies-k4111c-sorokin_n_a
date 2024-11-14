@@ -1,11 +1,19 @@
 University: [ITMO University](https://itmo.ru/ru/)
+
 Faculty: [FICT](https://fict.itmo.ru)
+
 Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
+
 Year: 2024/2025
+
 Group: K4111c
+
 Author: Sorokin Nikita Alekseevich
+
 Lab: Lab4
+
 Date of create: 2.11.2024
+
 Date of finished: 2.11.2024
 
 ---
@@ -137,7 +145,7 @@ minikube kubectl -- port-forward service/frontend 3300:3000
 
 Как можем заметить, мы подключились к поду из зоны `west` так как его ip-адрес в первой подсети.
 
-![[Pasted image 20241102185441.png]]
+![test](content/20241102185441.png)
 
 Протестируем доступность внутри подов
 
@@ -145,7 +153,7 @@ minikube kubectl -- port-forward service/frontend 3300:3000
 kubectl exec frontend-8c5dd4c9f-xzhgn -- ping 192.168.2.3
 ```
 
-![[Pasted image 20241104185134.png]]
+![test2](content/20241104185134.png)
 
 
 # Вывод
