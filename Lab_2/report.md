@@ -1,12 +1,20 @@
 
 University: [ITMO University](https://itmo.ru/ru/)
+
 Faculty: [FICT](https://fict.itmo.ru)
+
 Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
+
 Year: 2024/2025
+
 Group: K4111c
+
 Author: Sorokin Nikita Alekseevich
+
 Lab: Lab2
+
 Date of create: 2.11.2024
+
 Date of finished: 2.11.2024
 
 ---
@@ -37,9 +45,9 @@ spec:
             cpu: "1"
         env:
           - name: REACT_APP_USERNAME
-	        value: Sorokin
+            value: Sorokin
           - name: REACT_APP_COMPANY_NAME
-	        value: ITMO
+            value: ITMO
         ports:
         - containerPort: 3000
 ```
@@ -82,7 +90,7 @@ service/frontend created
 ```
 kubectl get deployments
 ```
-
+https://github.com/S-txt/2024_2025-introduction_to_distributed_technologies-k4111c-sorokin_n_a/blob/main/Lab_2/report.md
 ```
 NAME       READY   UP-TO-DATE   AVAILABLE   AGE
 frontend   2/2     2            2           83s
@@ -130,10 +138,11 @@ frontend   NodePort   10.97.255.174   <none>        3000:31225/TCP   3m
 
 Заходим в веб интерфейс
 
-![[Pasted image 20241102142722.png]]
+![webinterface](content/20241102142722.png)
 
 По результатам  выполнения была получена следующая схема:
-![[Lab2.png]]
+
+![Lab2](content/Lab2.png)
 
 # Выводы
 
